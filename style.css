@@ -1,0 +1,106 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: gray;
+}
+
+a.nav-link {
+    color: gray;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* Header */
+.navbar-brand {
+    font-size: 30px;
+}
+
+
+/* Grid */
+
+.post {
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+}
+
+.post-1 {
+  background-image: url(https://images.pexels.com/photos/2189758/pexels-photo-2189758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.post-2 {
+  background-image: url(https://images.pexels.com/photos/2294477/pexels-photo-2294477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.post-3 {
+  background-image: url(https://images.pexels.com/photos/2414918/pexels-photo-2414918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.post-4 {
+  background-image: url(https://images.pexels.com/photos/2720742/pexels-photo-2720742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.post-5 {
+  background-image: url(https://images.pexels.com/photos/1766479/pexels-photo-1766479.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.post-6 {
+  background-image: url(https://images.pexels.com/photos/2791043/pexels-photo-2791043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.post-7 {
+  background-image: url(https://images.pexels.com/photos/2801980/pexels-photo-2801980.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.post-8 {
+  background-image: url(https://images.pexels.com/photos/2800318/pexels-photo-2800318.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.post-9 {
+  background-image: url(https://images.pexels.com/photos/2233366/pexels-photo-2233366.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+/* Single post */
+.single-post {
+    background-color: #EAEAEA;
+}
+
+.img-post {
+   height: 400px;
+   object-fit: cover;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.bold-text {
+    font-size: 15px;
+}
+
+.normal-text {
+    font-size: 15px;
+}
+
+.gray-text {
+    color: gray;
+    font-size: 13px;
+}
+
+.post-comment {
+    border: none;
+}
+
+input[type=text]:focus {
+    border-color: white;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-heart {
+    color: gray;
+}
